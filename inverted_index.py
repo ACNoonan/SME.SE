@@ -21,6 +21,8 @@ def process_files(filenames):
 #Two additional steps are suggested that aren't already in place:
 #	1. Removing all stopwords (words like "the", "and", "a", etc.)
 #	2. Stemming all the words (so that "running", "runner" & "runs" become "run")
+#	3. If word is already present, add refernce of document to index, else create a new entry.
+
 
 
 
